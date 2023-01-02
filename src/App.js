@@ -24,7 +24,7 @@ function App() {
   const [cities, setCity] = useState()
   const [cityValue, setCityValue] = useState('')
   const [cityList, setCityList] = useState('')
-  const expertise =  useState(professionData.professions)
+  const expertise =  professionData.professions
   const [jobValue, setJobValue] = useState('')
   
   useEffect(()=>{api()},[])
